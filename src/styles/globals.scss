@@ -1,0 +1,11 @@
+@forward "partials/core";
+@forward "partials/typography";
+@use "partials/responsive" as responsive;
+@use "partials/colors";
+
+.container {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 5vw, 2.25rem);
+}
+

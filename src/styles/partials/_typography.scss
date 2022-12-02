@@ -1,0 +1,48 @@
+@use "colors";
+@use "responsive";
+
+
+$text-lg: 2rem;
+$text-md: 1.75rem;
+$text-sm: 1.25rem;
+
+$line-lg: 2.375rem;
+$line-md: 1.25rem;
+$line-sm: 1.25rem;
+
+$font-bold: 700;
+$font-reg: 400;
+
+%font-bold {
+  font-weight: $font-bold;
+}
+
+.typography {
+  color: colors.$black;
+  font-size: $text-sm;
+  line-height: $line-sm;
+
+  &--font-reg {
+    font-weight: $font-reg;
+  }
+
+  &--secondary {
+    color: colors.$white;
+  }
+
+  &--h1 {
+    font-size: $text-lg;
+    line-height: $line-lg;
+    @extend %font-bold;
+  }
+
+  &--h3 {
+    @extend %font-bold;
+  }
+
+  &--h2 {
+    font-size: $text-md;
+    line-height: $line-md;
+    @extend %font-bold;
+  }
+}
