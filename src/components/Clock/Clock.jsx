@@ -1,10 +1,11 @@
 import React from 'react'
+import time from "../../assets/images/Time.png"
+import "./Clock.scss"
 
 const Clock = () => {
     return (
         <div className='clock'>
-            Monday, June 6
-            9:41
+            <img className='clock__display'src={time} alt='time'/>
         </div>
     )
 }

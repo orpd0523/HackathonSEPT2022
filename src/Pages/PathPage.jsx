@@ -1,6 +1,6 @@
 import React from 'react';
-import HomePathCard from './../HomePathCard';
-import Slider from '../Slider/Slider';
+import HomePathCard from '../components/HomePathCard';
+import Slider from '../components/Slider/Slider';
 
 const PathPage = () => {
     return (
