@@ -1,0 +1,20 @@
+@use "../../styles/partials/colors" as colors;
+@use "../../styles/partials/typography" as typography;
+
+.btn__container{
+    width: 15.6875rem;
+    margin-inline: auto;
+    
+}
+
+.btn {
+    height: 3.875rem;
+    width: 100%;
+    border-radius: 6.25rem;
+    font-weight: 600;
+    background-color: colors.$purple;
+    color: colors.$white;
+    margin-top: 1.4375rem;
+    margin-bottom: 1.4375rem;
+    font-size: typography.$text-sm;
+}
