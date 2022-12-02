@@ -1,0 +1,18 @@
+@use "../../styles/partials/colors" as colors;
+
+.btn__container{
+    width: 15.6875rem;
+    margin-inline: auto;
+    
+}
+
+.btn {
+    height: 3.875rem;
+    width: 100%;
+    border-radius: 6.25rem;
+    font-weight: 600;
+    background-color: colors.$black;
+    color: colors.$white;
+    margin-top: 3.3125rem;
+    margin-bottom: 2.9375rem;
+}
