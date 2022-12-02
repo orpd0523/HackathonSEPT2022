@@ -21,5 +21,13 @@
     }
     &__bottom{
         padding: 1rem;
+        position: relative;
+    }
+    &__audio{
+        width: 3.4375rem;
+        height: 3.4375rem;
+        position: absolute;
+        top: -1.25rem;
+        right: 1rem;
     }
 }
