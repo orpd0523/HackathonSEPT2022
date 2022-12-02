@@ -1,23 +1,27 @@
-import React from 'react'
-// import upArrow from ""
-// import roadImage from ""
+import React from "react";
+import "./HomePathCard.scss";
 
-const HomePathCard = () => {
-    return (
-        <div className='home-path-card'>
-            <div className="home-path-card__image-container">
-                <img src={null} alt="Home" className="home-path-card__image" />
-            </div >
+const HomePathCard = ({ img, directions, arrow }) => {
+  const Arrow = arrow || "span";
+  return (
+    <div className="home-path-card">
+      <div className="home-path-card__image-container">
+        <img src={img} alt="Home" className="home-path-card__image" />
+      </div>
 
-            <img src={null} alt="Up Arrow" className="home-path-card__up-arrow" />
+      <div className="home-path-card__up-arrow">
+        <Arrow size={"3rem"} />
+      </div>
 
-            <h3 className="home-path-card__directions-text">Walk straight ahead</h3>
-            <h4 className="home-path-card__final-goal">to go home</h4>
+      <h3 className="home-path-card__directions-text">{directions}</h3>
+      <h4 className="home-path-card__final-goal">to go home</h4>
 
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" className="home-path-card__view-map-link">View Map</a>
-        </div>
-    )
-}
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+      <a href="#" className="home-path-card__view-map-link">
+        View Map
+      </a>
+    </div>
+  );
+};
 
-export default HomePathCard
+export default HomePathCard;
