@@ -7,6 +7,7 @@
     margin-top: 1rem;
     
     &__top{
+        position: relative;
         &--small{
             height: 13.125rem;
         }
@@ -29,5 +30,16 @@
         position: absolute;
         top: -1.25rem;
         right: 1rem;
+    }
+    &__location{
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        background-color: colors.$white;
+        padding: .25rem;
+        width: auto;
+        display: flex;
+        gap: .25rem;
+        border-radius: 1rem;
     }
 }
