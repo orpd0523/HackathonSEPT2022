@@ -1,6 +1,6 @@
 @use "colors";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html {
   box-sizing: border-box;
@@ -11,7 +11,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: colors.$white;
+  background: url(../../assets/images/home_screen.png);
+  background-position: top;
+  background-size: cover;
 }
 
 *,
