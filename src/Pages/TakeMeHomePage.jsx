@@ -11,9 +11,9 @@ const TakeMeHomePage = () => {
     <div className="take-me-home-page">
       <Clock />
       <TakeMeHomeCard />
-      <Link to={"path/1"} className="take-me-home-page__emergency-link">
+      <a href="#" className="take-me-home-page__emergency-link">
         Call Emergency Contact
-      </Link>
+      </a>
     </div>
   );
 };

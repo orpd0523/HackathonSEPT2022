@@ -5,4 +5,8 @@ import { BrowserRouter } from "react-router-dom";
 import "./styles/globals.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
