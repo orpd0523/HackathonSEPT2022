@@ -57,7 +57,7 @@ const PathPage = () => {
       if (index < directionsData.length - 1) {
         setIndex((pre) => pre + 1);
       }
-    }, 1000);
+    }, 3000);
 
     return () => {
       clearInterval(timerId.current);
