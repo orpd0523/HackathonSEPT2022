@@ -1,4 +1,4 @@
-Demo link: https://google-demo.surge.sh/path
+Demo link: https://google-demo.surge.sh/
 
 
 # Getting Started with Create React App
