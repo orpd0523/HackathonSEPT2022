@@ -1,0 +1,56 @@
+.typography {
+  color: #272727;
+  font-size: 1rem;
+  margin: 0;
+}
+.typography--center {
+  text-align: center;
+}
+.typography--font-reg {
+  font-weight: 400;
+}
+.typography--secondary {
+  color: #ffffff;
+}
+.typography--purple {
+  color: #3F0072;
+}
+.typography--h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.typography--h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.typography--h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.typography--h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.typography--body1 {
+  font-size: 1rem;
+}
+.typography--body2 {
+  font-size: 0.875rem;
+}
+
+.btn__container {
+  width: 15.6875rem;
+  margin-inline: auto;
+}
+
+.btn {
+  height: 3.875rem;
+  width: 100%;
+  border-radius: 6.25rem;
+  font-weight: 600;
+  background-color: #3F0072;
+  color: #ffffff;
+  margin-top: 1.4375rem;
+  margin-bottom: 1.4375rem;
+  font-size: 1rem;
+}/*# sourceMappingURL=Button.css.map */

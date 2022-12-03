@@ -1,0 +1,27 @@
+.take-me-home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 2rem;
+    border-radius: 15px;
+
+    &__image {
+        max-width: 100%;
+    }
+
+    &__btn {
+        height: 40px;
+        width: 180px;
+        border-radius: 50px;
+        margin-top: 2rem;
+        color: white;
+        background-color: rgb(31, 31, 31);
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

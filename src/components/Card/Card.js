@@ -1,6 +1,6 @@
 import "./Card.scss";
-import audioIcon from "../../assets/icons/Icon-audio.svg";
-import locationIcon from "../../assets/icons/Icon-location.svg";
+import audioIcon from "../../assests/Icon-audio.svg";
+import locationIcon from "../../assests/Icon-location.svg";
 
 function Card(props) {
   const { children, src, alt, audio = false, location = false } = props;
@@ -13,8 +13,8 @@ function Card(props) {
               <img className="" src={locationIcon} alt="location" />
               <div>
                 <p className="typography typography--body2">YOUR ADDRESS:</p>
-              <p className="typography typography--body2">234 w 17 ave</p>
-            </div>
+                <p className="typography typography--body2">234 w 17 ave</p>
+              </div>
             </div>
           )}
           <img className="card__image" src={src} alt={alt} />
@@ -26,7 +26,7 @@ function Card(props) {
         {audio && <img className="card__audio" src={audioIcon} alt="audio" />}
       </div>
     </div>
-  )
+  );
 }
 
 export default Card;
